@@ -1,6 +1,7 @@
 package interfaces
 
-type Contacto struct {
+type ContactoRes struct {
+	ID       int    `json:"ID"`
 	Nombre   string `json:"nombre"`
 	Telefono string `json:"telefono"`
 }
